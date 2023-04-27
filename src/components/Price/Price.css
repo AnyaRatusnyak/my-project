@@ -1,0 +1,40 @@
+.content__boxed {
+  background-color: #e1eeff;
+}
+.text {
+  white-space: nowrap;
+  margin-right: 70px;
+}
+.first-block {
+  margin-left: 20px;
+}
+.last-block {
+  margin-right: 20px;
+}
+
+.list-group-item {
+  background-image: url(../../img/check.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 30px !important;
+}
+
+.ribbon {
+  width: 108px;
+  rotate: 25deg;
+  top: 10px;
+  left: 167px;
+}
+@media (max-width: 576px) {
+  .first-block {
+    margin-left: 0px;
+  }
+  .last-block {
+    margin-right: 0px;
+  }
+  .ribbon {
+    rotate: 0deg;
+    top: 0;
+    left: 0;
+  }
+}
